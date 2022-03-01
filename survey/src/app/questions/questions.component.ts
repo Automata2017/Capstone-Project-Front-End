@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class QuestionsComponent implements OnInit {
 
   onSubmit(data: any){
+    console.log(data)
     this.http.post('http://localhost:9092/api/tickets/', data).subscribe((result)=>{
       console.warn("result", result)
     })
