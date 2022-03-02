@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./questions.component.css']
 })
 export class QuestionsComponent implements OnInit {
-
+//this is what connects the back end and allows for submission of tickets
   onSubmit(data: any){
     console.log(data)
     this.http.post('http://localhost:9092/api/tickets/', data).subscribe((result)=>{
