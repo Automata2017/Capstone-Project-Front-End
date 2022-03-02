@@ -27,7 +27,7 @@ This project is about recreating a smaller version of the exit tickets given by 
 
 ### User Stories
 
-|:---|
+|---|
 |As a student I want to type out answers for questions that ask me to type|
 |As a student I want to answer questions that ask for number between 1 and 10|
 |As a student I want to answer yes or no questions with a button|
