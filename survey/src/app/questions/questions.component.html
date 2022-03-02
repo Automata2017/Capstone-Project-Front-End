@@ -1,27 +1,27 @@
 <h1 class="header">Exit Ticket</h1>
 <h2 class="title">Exit Ticket</h2>
 
-<h3>Please take a few minutes to answer the following questions about today's learning experience.</h3>
+<h3 class = "instructions">Please take a few minutes to answer the following questions about today's learning experience.</h3>
 <form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)">
-    <p>Please type your first and last name.</p>
+    <p class="ask">*Please type your first and last name.</p>
     <input type="text" name="fullName" ngModel placeholder="First and Last Name"> <br><br>
 
-    <p>Please type your email address.</p>
+    <p class="ask">*Please type your email address.</p>
     <input type="text" name="emailAddress" ngModel placeholder="Email"> <br><br>
 
-    <p>Which week are you in?</p>
+    <p class="ask">*Which week are you in?</p>
     <input type="text" name="weekNumber" ngModel placeholder="Week Number"> <br><br>
 
-    <p>What was the name of the lesson?</p>
+    <p class="ask">*What was the name of the lesson?</p>
     <input type="text" name="lessonName" ngModel placeholder="Lesson Name"> <br><br>
 
-    <p>What did you think of the lesson?</p>
+    <p class="ask">*What did you think of the lesson?</p>
     <input type="text" name="studentComment" ngModel placeholder="Comments"> <br><br>
 
-    <p>On a scale of 1 to 10, how would you rate your experience as a student in this class?</p>
+    <p class="ask">*On a scale of 1 to 10, how would you rate your experience as a student in this class?</p>
     <input type="text" name="studentRating" ngModel placeholder="Rating"> <br><br>
 
-    <p>Would you recommend this class to others? Leave button unchecked if no.</p>
+    <p class="ask">*Would you recommend this class to others? Leave button unchecked if no.</p>
     <label><input type="checkbox" name="studentRecommendation">Yes I would</label> <br><br>
 
     <button type="submit">Submit Survey</button>
